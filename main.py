@@ -24,15 +24,15 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
 #Write your code below this line 👇
-direction = input("You've entered a thick jungle, do you want to go \"left\" or \"right\" ?")
+direction = input("You've entered a thick jungle, do you want to go \"left\" or \"right\" ?").lower()
 if direction == "left":
-    river = input("You stumbled across a large river.  Do you want to \"swim\" or \"wait\"? ")
+    river = input("You stumbled across a large river.  Do you want to \"swim\" or \"wait\"? ").lower()
     if river == "wait":
-      door = input("You find a set of magic doors.  Do you choose the red, yellow or blue one?")
+      door = input("You find a set of magic doors.  Do you choose the red, yellow or blue one?").lower()
       if door == "yellow":
-        print("Congratulations!  You have found the secret treasure and won the game!")
+        print("Congratulations!  You have found the secret treasure and won the game!").
       elif door == "blue":
-        print("You were destroyed by magical powers.  Game Over.")
+        print("You were destroyed by magical powers.  Game Over.").
       else:
         print("You were burned by fire.  Game Over.")
     else:
