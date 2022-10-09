@@ -30,9 +30,9 @@ if direction == "left":
     if river == "wait":
       door = input("You find a set of magic doors.  Do you choose the red, yellow or blue one?").lower()
       if door == "yellow":
-        print("Congratulations!  You have found the secret treasure and won the game!").
+        print("Congratulations!  You have found the secret treasure and won the game!")
       elif door == "blue":
-        print("You were destroyed by magical powers.  Game Over.").
+        print("You were destroyed by magical powers.  Game Over.")
       else:
         print("You were burned by fire.  Game Over.")
     else:
